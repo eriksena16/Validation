@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Validation.Entities
 {
-    class Venda
+    public class Venda
     {
+        public DateTime Data { get; set; }
+        public decimal Total { get; set; }
+        public TipoVenda Tipo { get; set; }
+        public List<ItemVenda> Items { get; set; }
     }
 }

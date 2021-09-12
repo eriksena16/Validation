@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Validation.Services
+namespace Validation.Entities
 {
-    class ClienteService
+    public enum TipoVenda
     {
+        Padrão,
+        Brinde
     }
 }
